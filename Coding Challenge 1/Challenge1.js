@@ -15,17 +15,3 @@ console.log("The BMI of john is: "+ BMIJohn);
 console.log("The BMI of mark is greater than John: "+ markHigherBMI);
 
 
-/*let massMark = 95;
-let heightMark = 1.88;
-let massJohn = 85;
-let heightJohn = 1.76;
-
-let BMIMark = massMark / heightMark ** 2;
-let BMIJohn = massJohn / (heightJohn * heightJohn);
-let markHigherBMI = BMIMark > BMIJohn;
-
-console.log("For test data 2:");
-console.log("The BMI of mark is: "+ BMIMark);
-console.log("The BMI of john is: "+ BMIJohn);
-console.log("The BMI of mark is greater than John: "+ markHigherBMI);*/
-
