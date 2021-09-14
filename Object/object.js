@@ -25,7 +25,7 @@ user2["surname"] = ["Jahan"];
 user2.name = ["Pete"];
 delete user2.name;
 
-console.log(user2);*/
+console.log(user2);
 
 //cloning
 let user = {
@@ -38,7 +38,7 @@ let userAnother = {};
 
 /*for(let key in user){
     userAnother[key] = user[key]
-}*/
+}
  userAnother = Object.assign({},user)
 
 console.log(userAnother.age);
@@ -49,27 +49,60 @@ let movies ={
 }
 
 Object.assign(user,movies);//merging
-console.log(user);
+console.log(user);*/
+
+//method: a function which is a property of an object
+
+/*function sayHello()
+{
+    console.log("Hello Israt");
+}
+
+let obj = {
+    name:"Konka",
+    status:"Friend",
+    sayHello:sayHello()
+}
+
+obj.sayHello;
+
+//to access the object a method can use this keyword
+
+let obj1 = {
+    name:"Konka",
+    status:"Friend",
+    sayHi(){
+        console.log(this.name+"SAYS hELLO ISRAT");
+    }
+
+}
+console.log(obj1.name);
+obj1.sayHi();*/
 
 
 
 //this
-let userX = { name: "John" };
-let admin = { name: "Admin" };
-
 function sayHi() {
-  alert( this.name );
-}
+    alert( this.name );
+  }
+
+let userX = { 
+    name: "John",
+
+ };
+let admin = { 
+    name: "Admin",
+
+ };
+userX.f=sayHi;
+admin.f=sayHi;
+
+userX.f();
+admin.f();
 
 
-userX.f = sayHi;
-admin.f = sayHi;
 
-userX.f(); 
-admin.f(); 
-
-admin['f']();
-
+/*
 //Create a Calculator
 let calculator = {
     sum(){
@@ -88,3 +121,4 @@ calculator.read();
 console.log(calculator.sum());
 console.log(calculator.sum());
 
+*/
