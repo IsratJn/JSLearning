@@ -13,8 +13,8 @@ html {
 
 body {
   font-family: 'Press Start 2P', sans-serif;
-  color: #eee;
-  background-color: #222;
+  color:blue;
+  background-color:whiteF;
   /* background-color: #60b347; */
 }
 
@@ -22,12 +22,12 @@ body {
 header {
   position: relative;
   height: 35vh;
-  border-bottom: 7px solid #eee;
+  border-bottom: 7px solid rgb(163, 52, 52);
 }
 
 main {
   height: 65vh;
-  color: #eee;
+  color:red;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -84,7 +84,7 @@ h1 {
 
 .guess {
   background: none;
-  border: 4px solid #eee;
+  border: 4px solid rgb(182, 23, 23);
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
