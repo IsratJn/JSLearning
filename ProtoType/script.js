@@ -1,12 +1,12 @@
-let animal = {
+/*let animal = {
     eats: true,
     sleeps:true,
     love(){
         console.log("Animals love unconditionally!!!");
     },
-   /* walk(){
+    walk(){
 
-    }*/
+    }
   };
   let rabbit = {
     jumps: true,
@@ -43,8 +43,37 @@ let animal = {
       }
   }
 
-  console.log(user.fullName);
+  console.log(user.fullName);*/
 
+//this is not affected by prototype
+
+let animal = {
+    walk() {
+      if (!this.isSleeping) {
+        alert(`I walk`);
+      }
+    },
+    sleep() {
+      this.isSleeping = true;
+    }
+  };
+  animal.sleep();
+  alert(animal.isSleeping);
+
+  let rabbit = {
+    name: "White Rabbit",
+    __proto__: animal
+  };
+  
+  // modifies rabbit.isSleeping
+  //rabbit.sleep();
+  
+  
+  //alert(rabbit.isSleeping); // true
+   // undefined (no such property in the prototype)
+
+
+  /*
   //for..each
   let animals = {
     eats: true
@@ -63,4 +92,4 @@ let animal = {
     } else {
       alert(`Inherited: ${prop}`); // Inherited: eats
     }
-  }
+  }*/

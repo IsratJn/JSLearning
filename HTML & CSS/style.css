@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:burlywood;
+    padding: 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.first{
+    color:black;
+    
+}
+.second{
+    color:rgb(72, 37, 148);
+    margin-bottom: 20px;
+}
+.third{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:firebrick;
+    
+    
+
+}
+.fourth{
+    margin-bottom: 20px;
+}
+.fifth{
+    background-color:darksalmon;
+}
+
+#your-name{
+    background-color: rgb(235, 222, 148);
+    border: 5px solid #444;
+    padding: 25px;
+}
+
+button{
+    margin-bottom: 20px;
+
+}
+#your-name h2{
+    text-align:center;
+}

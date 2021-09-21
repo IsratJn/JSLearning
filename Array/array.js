@@ -1,6 +1,7 @@
-const favoriteMovies = ['Asha Jawar Majhe', 'Wake up sid', 'Titli'];
+/*const favoriteMovies = ['Asha Jawar Majhe', 'Wake up sid', 'Titli'];
 console.log("The first element:" + favoriteMovies[0]);
 console.log("The last element:" + favoriteMovies[favoriteMovies.length - 1]);
+console.log(favoriteMovies);
 
 
 const Israt = ['Israt', 2021 - 1998, favoriteMovies];
@@ -62,3 +63,41 @@ const changeToUpperCase = arr => {
 
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
 console.log(changeToUpperCase(countries))
+
+
+
+//array can hold mixed data
+
+let array2 = [1,5,"Israt",function () 
+{alert("Salamu alaikum");
+}
+];
+console.log(array2[1]);
+array2[3]();*/
+
+//methods that work at the end of an array
+
+let fruits = ["Apple","Guava","Banana","Berry","Litchi"];
+fruits.pop();//Last element ta se soray felbe
+alert("After popping: " +fruits);
+
+fruits.push("WaterMelon");
+alert("After pushing: " +fruits);
+
+// methods thaat work at the begining of an array
+
+//fruits.shift();
+//alert("After shifting: " +fruits);//first element shoray felse
+
+fruits.unshift("Dragon fruit");
+alert("After unshifting: " +fruits);
+
+let pracObject = {
+    nameF:"Israt",
+    nameL:"Jahan"
+}
+console.log(pracObject.nameF,pracObject.nameL);
+
+
+
+

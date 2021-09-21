@@ -66,7 +66,7 @@ let obj = {
 
 obj.sayHello;
 
-//to access the object a method can use this keyword
+//to access the object a method can use THIS keyword
 
 let obj1 = {
     name:"Konka",
